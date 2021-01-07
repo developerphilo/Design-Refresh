@@ -43,6 +43,9 @@ Once done, please send your implementation (just the glitch link) to jesse.tmmg@
 The deadline for submissions is 04:00PM - Friday, January 8, 2021.
 
 
+<img src="https://cdn.glitch.com/4d6434d6-5642-43ab-8c0f-0593777bcd3d%2FPink1.png?v=1610025093198" />
+
+
 ## Project setup
 ```
 npm install
