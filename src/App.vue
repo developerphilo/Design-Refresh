@@ -132,6 +132,10 @@ export default {
   border-radius: 50%;
 }
 @media (max-width: 601px) {
+  .designintern {
+    position: relative;
+    height: 100vh;
+  }
   .image img {
     width: 350px;
     height: 500px;
