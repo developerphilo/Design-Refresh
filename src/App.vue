@@ -164,5 +164,9 @@ export default {
     font-weight: 100;
     padding: 2% 2%;
   }
+  .menu {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
 }
 </style>
