@@ -116,15 +116,15 @@ export default {
 }
 .socialmedia {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 90%;
 }
 .socialmedia img {
   width: 30px;
   height: 30px;
 }
-.socialmedia a {
-  color: white;
+.socialmedia div {
+  margin-bottom: 2%;
 }
 .menu ul {
   list-style: none;
