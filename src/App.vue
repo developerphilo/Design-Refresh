@@ -6,16 +6,32 @@
       <img alt="girl with orange " src="./assets/girlorange.png" />
     </div>
     <div class="socialmedia">
-      <div class="instagram">{{ infos.email }}</div>
-      <div class="instagram">{{ infos.instagram }}</div>
-      <div class="instagram">{{ infos.snapchat }}</div>
-      <div class="instagram">{{ infos.twitter }}</div>
+      <div class="instagram">
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          <img alt="girl with orange " src="./assets/instagram.png"
+        /></a>
+      </div>
+      <div class="instagram">
+        <a href="http://" target="_blank" rel="noopener noreferrer"
+          ><img alt="girl with orange " src="./assets/twitter.png"
+        /></a>
+      </div>
+      <div class="instagram">
+        <a href="http://" target="_blank" rel="noopener noreferrer"
+          ><img alt="girl with orange " src="./assets/snapchat.png"
+        /></a>
+      </div>
+      <div class="instagram">
+        <a href="http://" target="_blank" rel="noopener noreferrer"
+          ><img alt="girl with orange " src="./assets/mail.png"
+        /></a>
+      </div>
     </div>
     <div class="menu">
       <ul>
         <li><a href="#">HOME</a></li>
         <li><a href="#">ABOUT</a></li>
-        <li><img src="./assets/girlorange.png" width="80" height="80" /></li>
+        <li><img src="./assets/girlorange.png" width="100" height="100" /></li>
         <li><a href="#">GALLERY</a></li>
         <li><a href="#">CONTACT</a></li>
       </ul>
@@ -59,7 +75,7 @@ export default {
   color: white;
 }
 .designintern {
-  /* background: rgb(185, 29, 102); */
+  position: relative;
   background: linear-gradient(
     to right,
     rgb(212, 42, 93) 0%,
@@ -84,6 +100,18 @@ export default {
   background-size: cover;
   background-position: center;
 }
+.socialmedia {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+}
+.socialmedia img {
+  width: 30px;
+  height: 30px;
+}
+.socialmedia a {
+  color: white;
+}
 .menu ul {
   list-style: none;
   display: flex;
@@ -99,8 +127,25 @@ export default {
   letter-spacing: 3px;
 }
 .menu ul li img {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
+}
+@media (max-width: 601px) {
+  .image img {
+    width: 350px;
+    height: 500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  .designintern h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 100;
+    padding: 2% 2%;
+  }
 }
 </style>
