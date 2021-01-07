@@ -49,6 +49,7 @@
         <li><a href="#">CONTACT</a></li>
       </ul>
     </div>
+    <p>Coded with love by John Philip</p>
   </div>
 </template>
 
@@ -68,7 +69,7 @@ export default {
 
     this.infos = data.social_media;
     this.name = data.name;
-    console.log(this.infos);
+    console.log("Hire Me! abeg");
   },
 };
 </script>
@@ -143,6 +144,9 @@ export default {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+}
+p {
+  font-size: 1rem;
 }
 @media (max-width: 601px) {
   .designintern {
