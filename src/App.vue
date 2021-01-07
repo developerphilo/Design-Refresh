@@ -120,8 +120,16 @@ export default {
   left: 90%;
 }
 .socialmedia img {
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
+}
+.socialmedia a {
+  display: inline-block;
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.socialmedia a:hover {
+  transform: scale(0.5) translateY(-15px);
 }
 .socialmedia div {
   margin-bottom: 2%;
