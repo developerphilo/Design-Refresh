@@ -7,22 +7,35 @@
     </div>
     <div class="socialmedia">
       <div class="instagram">
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a
+          :href="'https://www.instagram.com/' + infos.instagram"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img alt="girl with orange " src="./assets/instagram.png"
         /></a>
       </div>
-      <div class="instagram">
-        <a href="http://" target="_blank" rel="noopener noreferrer"
+      <div class="twitter">
+        <a
+          :href="'https://www.twitter.com/' + infos.twitter"
+          target="_blank"
+          rel="noopener noreferrer"
           ><img alt="girl with orange " src="./assets/twitter.png"
         /></a>
       </div>
-      <div class="instagram">
-        <a href="http://" target="_blank" rel="noopener noreferrer"
+      <div class="snapchat">
+        <a
+          :href="'https://www.snapchat.com/' + infos.snapchat"
+          target="_blank"
+          rel="noopener noreferrer"
           ><img alt="girl with orange " src="./assets/snapchat.png"
         /></a>
       </div>
-      <div class="instagram">
-        <a href="http://" target="_blank" rel="noopener noreferrer"
+      <div class="email">
+        <a
+          :href="'mailto:' + infos.email"
+          target="_blank"
+          rel="noopener noreferrer"
           ><img alt="girl with orange " src="./assets/mail.png"
         /></a>
       </div>
