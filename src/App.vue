@@ -94,10 +94,10 @@ export default {
   position: relative;
   background: linear-gradient(
     to right,
-    rgb(212, 42, 93) 0%,
-    rgb(212, 42, 93) 50%,
+    rgb(185, 29, 102) 0%,
     rgb(185, 29, 102) 50%,
-    rgb(185, 29, 102) 100%
+    rgb(212, 42, 93) 50%,
+    rgb(212, 42, 93) 100%
   );
   overflow: hidden;
 }
@@ -142,7 +142,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1% 2%;
+  padding: 1% 1%;
 }
 .menu ul li a {
   text-decoration: none;
