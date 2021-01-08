@@ -83,11 +83,12 @@ export default {
   text-align: center;
 }
 * {
-  margin: 0;
+  margin: 0 !important;
   padding: 0;
   box-sizing: border-box;
   color: white;
 }
+
 .designintern {
   width: 100%;
   position: relative;
@@ -98,6 +99,7 @@ export default {
     rgb(185, 29, 102) 50%,
     rgb(185, 29, 102) 100%
   );
+  overflow: hidden;
 }
 .designintern h2 {
   font-size: 3rem;
@@ -160,12 +162,7 @@ p {
 @media (max-width: 720px) {
   .designintern {
     width: 100%;
-    position: relative;
-  }
-  .socialmedia {
-    position: absolute;
-    top: 40%;
-    right: 10%;
+    overflow: hidden;
   }
   .image img {
     width: 350px;
@@ -180,7 +177,6 @@ p {
     font-size: 3rem;
     line-height: 3rem;
     font-weight: 100;
-    padding: 2% 2%;
   }
   .menu {
     padding-top: 4rem;
