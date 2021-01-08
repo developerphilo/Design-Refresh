@@ -164,6 +164,15 @@ p {
     width: 100%;
     overflow: hidden;
   }
+  .menu ul li {
+    padding-right: 1%;
+    letter-spacing: 1px;
+  }
+  .menu ul li img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
   .image img {
     width: 350px;
     height: 500px;
