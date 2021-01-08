@@ -89,6 +89,7 @@ export default {
   color: white;
 }
 .designintern {
+  width: 100%;
   position: relative;
   background: linear-gradient(
     to right,
@@ -156,10 +157,15 @@ export default {
 p {
   font-size: 1rem;
 }
-@media (max-width: 601px) {
+@media (max-width: 720px) {
   .designintern {
+    width: 100%;
     position: relative;
-    height: 100vh;
+  }
+  .socialmedia {
+    position: absolute;
+    top: 40%;
+    right: 10%;
   }
   .image img {
     width: 350px;
